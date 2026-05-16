@@ -4,6 +4,8 @@ A Chrome extension that saves tweets you scroll past on **x.com** / **twitter.co
 
 It makes **no network requests of its own** — it only reads what is already rendered in the page DOM. Nothing leaves your browser until you choose to share the export.
 
+![The popup open over an X.com timeline, showing the regex input, flags, collected count, and Download / Copy / Clear actions.](assets/popup-on-x.png)
+
 ## Why
 
 Scrolling X is fast; pulling structured data out of it is slow. This extension lets you set a topic filter (any regex), browse normally, and end up with a clean Markdown file of every relevant tweet you saw — author, timestamp, URL, quote tweets, and thread context all preserved. Hand that file to an LLM and you can ask things like "summarise the week in $NVDA chatter" or "group these by stance" without scraping or copy-pasting.
