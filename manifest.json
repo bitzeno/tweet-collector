@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "X Tweet Collector",
+  "name": "Tweet Collector",
   "version": "1.0.0",
   "description": "Collect tweets you scroll past on X.com that match a regex. Saves to markdown, makes no network requests of its own.",
   "permissions": ["storage", "downloads"],
@@ -10,7 +10,7 @@
   ],
   "action": {
     "default_popup": "src/popup.html",
-    "default_title": "X Tweet Collector"
+    "default_title": "Tweet Collector"
   },
   "content_scripts": [
     {

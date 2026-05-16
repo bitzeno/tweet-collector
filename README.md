@@ -1,4 +1,4 @@
-# X Tweet Collector
+# Tweet Collector
 
 A Chrome extension that saves tweets you scroll past on **x.com** / **twitter.com** when their text matches a regex you set — but only while you've explicitly toggled it on. Flip it off and it goes back to doing nothing. Export the collection as Markdown, ready to drop into your favorite AI agent (Claude, ChatGPT, etc.) for summarising, clustering, sentiment, or whatever analysis you want to run.
 
