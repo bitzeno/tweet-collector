@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <header>
+      <h1>X Tweet Collector</h1>
+      <label class="toggle" title="Enable collection">
+        <input type="checkbox" id="enabled">
+        <span class="slider"></span>
+      </label>
+    </header>
+
+    <section>
+      <label>
+        <span class="label-row">Regex<button type="button" id="reset-pattern" class="link">Reset</button></span>
+        <input id="pattern" type="text" spellcheck="false" placeholder="\$[A-Z]{1,5}\b">
+      </label>
+      <label>Flags
+        <input id="flags" type="text" spellcheck="false" placeholder="(blank | i | g | m...)">
+      </label>
+      <div id="error" class="error"></div>
+    </section>
+
+    <section class="stats">
+      <strong id="count">0</strong> tweets collected
+    </section>
+
+    <section class="actions">
+      <button id="download">Download .md</button>
+      <button id="copy">Copy</button>
+      <button id="clear" class="danger">Clear</button>
+    </section>
+
+    <section>
+      <details>
+        <summary>Preview</summary>
+        <pre id="preview"></pre>
+      </details>
+    </section>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
